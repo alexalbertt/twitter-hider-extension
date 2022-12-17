@@ -1,0 +1,29 @@
+{
+    "manifest_version": 3,
+    "name": "Twitter Hide Retweets and Self-Replies",
+    "version": "1.0",
+    "author": "Alex Albert",
+    "action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "https://twitter.com/*"
+    ],
+    "permissions": [
+      "activeTab",
+      "storage",
+      "tabs"
+    ],
+    "background": {
+      "service_worker": "js/background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://twitter.com/*"],
+        "css":["style.css"],
+        "js":["js/hide.js", "/js/jquery-3.6.0.min.js"],
+        "run_at": "document_end"
+      }
+    ]
+  }
