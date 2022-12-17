@@ -26,7 +26,6 @@
     "content_scripts": [
       {
         "matches": ["https://twitter.com/*"],
-        "css":["style.css"],
         "js":["js/hide.js", "/js/jquery-3.6.0.min.js"],
         "run_at": "document_end"
       }
