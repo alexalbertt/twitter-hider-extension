@@ -70,7 +70,7 @@ function hideAllSelfReplies() {
     $("div[data-testid='cellInnerDiv']").has("div.css-1dbjc4n.r-1bnu78o.r-1p0dtai.r-1d2f490.r-1jgb5lz.r-u8s1d.r-zchlnj.r-ipm5af.r-m5arl1").hide();
 
     // hide thread bar on left side
-    $("div.css-1dbjc4n.r-1bnu78o.r-16y2uox.r-1jgb5lz.r-14gqq1x.r-m5arl1").hide();
+    $("div[data-testid='cellInnerDiv']").has("div.css-1dbjc4n.r-1bnu78o.r-16y2uox.r-1jgb5lz.r-14gqq1x.r-m5arl1").hide();
   }
 }
 
