@@ -1,11 +1,16 @@
 {
     "manifest_version": 3,
-    "name": "Twitter Hide Retweets and Self-Replies",
+    "name": "Twitter Hider - Hide Retweets and Threads",
     "version": "1.0",
     "author": "Alex Albert",
     "action": {
-      "default_icon": "icon.png",
       "default_popup": "popup.html"
+    },
+    "icons": {
+      "16": "icon16.png",
+      "32": "icon32.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
     },
     "host_permissions": [
         "https://twitter.com/*"

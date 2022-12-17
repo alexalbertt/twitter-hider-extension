@@ -1,12 +1,20 @@
 # Twitter Hider Chrome Extension
-Twitter Hider is a Chrome extension that allows you to hide retweets and self-replies from your Twitter feed. This can be useful if you want to declutter your feed and see more relevant content.
+Twitter Hider is a simple Chrome extension that helps you declutter your Twitter feed by hiding retweets and self-replies. Retweets are tweets that have been reposted by other users, while self-replies are tweets that a user has written in response to their own tweet.
+
+![main screenshot](screenshot.png)
 
 ## Installation
-To install the extension, follow these steps:
+To use the chrome extension, follow these steps:
 
-Download the extension from the Chrome Web Store.
-Click on the "Add to Chrome" button.
-Click on "Add extension" in the pop-up window.
+1. Clone the repo
+
+2. Open Google Chrome and type chrome://extensions in the address bar. This will open the Chrome extensions page.
+
+3. Enable developer mode by clicking the toggle switch in the top-right corner of the page.
+
+4. Click the "Load unpacked" button and select the directory where you cloned the repository.
+
+The extension should now be loaded in your local browser. You may need to refresh the page for the changes to take effect.
 
 ## Usage
 After installing the extension, a new button will appear in your Chrome toolbar. Click on this button to open the extension's options page.
